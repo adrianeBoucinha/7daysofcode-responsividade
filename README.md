@@ -7,11 +7,11 @@ Criando uma página de uma Clínica Médica onde mostra os pacientes agendados, 
 | -------------  | --- |
 | :sparkles: Nome        | **7DaysOfCode - HTML e CSS (Responsividade)**
 | :label: Tecnologias | HTML, CSS
-| :rocket: URL         | https://adrianeboucinha.github.io/7daysofcode-linkedin/
-| :fire: Desafio     | https://7daysofcode.io/matricula/html-css-linkedin
+| :rocket: URL         | https://adrianeboucinha.github.io/7daysofcode-responsividade
+| :fire: Desafio     | https://7daysofcode.io/matricula/responsividade
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![https://adrianeboucinha.github.io/7daysofcode-linkedin/#vitrinedev](https://adrianeboucinha.github.io/7daysofcode-linkedin/#vitrinedev)
+![https://adrianeboucinha.github.io/7daysofcode-responsividade/#vitrinedev](https://adrianeboucinha.github.io/7daysofcode-responsividade/#vitrinedev)
 
 ## Detalhes do projeto
 
