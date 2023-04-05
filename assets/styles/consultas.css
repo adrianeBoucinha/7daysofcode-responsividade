@@ -1,0 +1,106 @@
+@import url('../../style.css');
+
+
+/*SECTION CONSULTAS*/
+
+.consultas .titulo-grande {
+    text-align: start;
+    margin-bottom: .5em;
+}
+.consultas ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.consultas__card {
+    background-color: var(--fundo-card);
+
+    display: flex;
+    flex-direction: column;
+
+    height: 160px;
+    width: 328px;
+    padding: 16px 16px 0;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+.consultas__card-titulo{
+    display: flex;
+    justify-content: space-between;
+}
+.consultas__card-paciente {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2em;
+}
+.consultas__card-paciente > div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+.consultas__card-titulo .consultas__card-chat{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    
+    background: var(--cinza-secundario);
+    
+    background-image: url('../img/chat1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.consultas__card-paciente span {
+    display: flex;
+    align-items: center;
+}
+.consultas__card-paciente span>span{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.consultas__card-paciente span>span.camera{
+    background-image: url('../img/Camera.svg');
+}
+.consultas__card-paciente span>span.mapa{
+    background-image: url('../img/mapa.svg');
+}
+
+.consultas__card-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    
+    border-top: 1px solid #46464619;
+}
+.consultas__card-conteudo p {
+    font-size: 14px;
+    padding: 1em;
+    margin-top: 1em;
+}
+.consultas__card-botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+.consultas__card-botoes button {
+    min-width: 120px;
+    width: 100%;
+}
+
+@media screen and (min-width:720px) {
+    .consultas ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
+
+

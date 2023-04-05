@@ -1,0 +1,11 @@
+@import url('../../style.css');
+
+/*SECTION HOME*/
+section.home{
+    display: flex;
+    align-items: center;
+    height: 110px;
+}
+.home > img {
+    padding: 1em;
+}
